@@ -1,3 +1,5 @@
+"use strict";
+
 /* Global vars */
 
 var touchScreen = false;
