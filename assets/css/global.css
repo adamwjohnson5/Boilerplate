@@ -68,6 +68,10 @@ a:hover {
 	display: none;
 }
 
+input {
+    outline-width: 0;
+}
+
 .field-error {
     color: #F00;
 }
