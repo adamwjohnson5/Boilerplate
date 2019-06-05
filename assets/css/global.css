@@ -68,7 +68,7 @@ a:hover {
 	display: none;
 }
 
-input {
+input:not([type=button]):not([type=checkbox]) {
     margin: 0;
     outline: none;
     box-sizing : border-box;
