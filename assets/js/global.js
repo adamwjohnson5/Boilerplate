@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if ((navigator.userAgent.match(/iPhone|iPad|iPod/i)) || (navigator.userAgent.match(/Android/i))) {
         touchScreen = true;
     }
-    // Mouse events
+    // Mouse and keyboard events
 
     // Set-up
     window.addEventListener('scroll', function() {
