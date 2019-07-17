@@ -47,13 +47,13 @@ p {
 	margin: 0;
 	line-height: 1.5;
     overflow-wrap: break-word;
-    word-wrap: break-word;
 }
 
 a {
 	color: #000;
 	text-decoration: none;
     transition: color .25s linear;
+    overflow-wrap: break-word;
 }
 
 a:hover {
