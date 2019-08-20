@@ -96,7 +96,7 @@ input[type=button] {
 select {
     font-size: 16px;
     color: #000;
-    font-family: -apple-system,  -webkit-system-font, sans-serif;
+    font-family: sans-serif;
     outline: none;
 }
 
