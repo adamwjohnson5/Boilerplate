@@ -37,8 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
 /* Responsive */
 
 function responsiveGlobal() {
-    let i = window.innerWidth;
-    if (i < 768) { // Mobile
+    if (window.innerWidth < 768) { // Mobile
 
     } else { // DT
 
