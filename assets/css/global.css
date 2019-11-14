@@ -68,7 +68,7 @@ a:hover {
 	display: none;
 }
 
-input:not([type=button]):not([type=checkbox]) {
+input:not([type=button]):not([type=checkbox]):not([type=radio]) {
     margin: 0;
     outline: none;
     box-sizing : border-box;
@@ -87,6 +87,11 @@ input[type=button] {
     padding: 7px;
     font-family: sans-serif;
     color: #000;
+}
+
+input[type=checkbox],
+input[type=radio] {
+    margin: 0;
 }
 
 select {
