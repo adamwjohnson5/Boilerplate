@@ -68,7 +68,7 @@ a:hover {
 	display: none;
 }
 
-input:not([type=button]):not([type=checkbox]):not([type=radio]),
+input:not([type=button]):not([type=checkbox]):not([type=radio]):not([type=submit]),
 textarea {
     margin: 0;
     outline: none;
@@ -80,7 +80,8 @@ textarea {
     color: #000;
 }
 
-input[type=button] {
+input[type=button],
+input[type=submit] {
     font-size: 16px;
     margin: 0;
     outline: none;
@@ -112,11 +113,11 @@ select {
 }
 
 .field-error {
-    color: #F00;
+    color: #F00 !important;
 }
 
 .field-error::-webkit-input-placeholder {
-   color: #F00;
+   color: #F00 !important;
 }
 
 /* Global */
