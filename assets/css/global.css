@@ -78,6 +78,7 @@ textarea {
     font-family: sans-serif;
     border: none;
     color: #000;
+    border-radius: 0;
 }
 
 input[type=button],
@@ -90,6 +91,8 @@ input[type=submit] {
     font-family: sans-serif;
     color: #000;
     cursor: pointer;
+    -webkit-appearance: none;
+    border-radius: 0;
 }
 
 input[type=checkbox],
@@ -97,6 +100,7 @@ input[type=radio] {
     margin: 0;
     margin-right: 6px;
     outline: none;
+    vertical-align: text-top;
 }
 
 select {
