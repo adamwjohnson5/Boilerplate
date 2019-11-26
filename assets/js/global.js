@@ -30,7 +30,9 @@ document.addEventListener('DOMContentLoaded', function() {
             location.reload(); // Refresh page
         }, 250);
     });
-    start(); // Start app
+    setTimeout(function() {
+        start(); // Start app
+    }, 250); // Short delay
 });
 
 /* Responsive */
