@@ -72,7 +72,7 @@ input:not([type=button]):not([type=checkbox]):not([type=radio]):not([type=submit
 textarea {
     margin: 0;
     outline: none;
-    box-sizing : border-box;
+    box-sizing: border-box;
     padding: 8px;
     font-size: 14px;
     font-family: sans-serif;
