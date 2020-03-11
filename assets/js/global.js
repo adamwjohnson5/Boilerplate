@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if ((navigator.userAgent.match(/iPhone|iPad|iPod/i)) || (navigator.userAgent.match(/Android/i))) {
         touchScreen = true;
     }
-    setEvents(); // Mouse and keyboard events
+    setEventsGlobal(); // Mouse and keyboard events
     // Set-up
     window.addEventListener('scroll', function() {
         let i = window.pageYOffset;
@@ -52,7 +52,7 @@ function responsiveGlobal() {
 
 /* Mouse and keyboard events */
 
-function setEvents() {
+function setEventsGlobal() {
 
 }
 
