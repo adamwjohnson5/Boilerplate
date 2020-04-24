@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     setTimeout(function() {
         start(); // Start app
-    }, 250); // Short delay
+    }, 500); // Short delay
 });
 
 /* Responsive */
