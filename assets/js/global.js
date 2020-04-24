@@ -10,7 +10,7 @@ var resizeTimerGlobal;
 
 document.addEventListener('DOMContentLoaded', function() {
     // Detect mobile
-    if ((navigator.userAgent.match(/iPhone|iPad|iPod/i)) || (navigator.userAgent.match(/Android/i))) {
+    if (navigator.userAgent.match(/iPhone|iPad|iPod/i) || navigator.userAgent.match(/Android/i)) {
         touchScreen = true;
     }
     setEventsGlobal(); // Mouse and keyboard events
