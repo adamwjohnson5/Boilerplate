@@ -8,29 +8,29 @@ var resizeTimerGlobal;
 
 /* On DOM load */
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', () => {
     // Detect mobile
     if (navigator.userAgent.match(/iPhone|iPad|iPod/i) || navigator.userAgent.match(/Android/i)) {
         touchScreen = true;
     }
     setEventsGlobal(); // Mouse and keyboard events
     // Set-up
-    window.addEventListener('scroll', function() {
+    window.addEventListener('scroll', () => {
         let i = window.pageYOffset;
     });
-    window.addEventListener('resize', function() {
+    window.addEventListener('resize', () => {
         if (! window.touchScreen) {
             responsiveGlobal();
         }
     });
     responsiveGlobal();
-    window.addEventListener('orientationchange', function() {
+    window.addEventListener('orientationchange', () => {
         clearTimeout(window.rotateTimer);
-        window.rotateTimer = setTimeout(function() {
+        window.rotateTimer = setTimeout(() => {
             location.reload(); // Refresh page
         }, 250);
     });
-    setTimeout(function() {
+    setTimeout(() => {
         start(); // Start app
     }, 500); // Short delay
 });
@@ -45,7 +45,7 @@ function responsiveGlobal() {
     }
     // On resize finish
     clearTimeout(window.resizeTimerGlobal);
-    window.resizeTimerGlobal = setTimeout(function() {
+    window.resizeTimerGlobal = setTimeout(() => {
 
     }, 250);
 }
