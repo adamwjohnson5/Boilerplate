@@ -1,5 +1,4 @@
 /* Fonts */
-
 /* @font-face {
     font-family: 'XXXXX';
     src: url('../fonts/XXXXX.woff2') format('woff2'),
@@ -7,7 +6,6 @@
 } */
 
 /* Set-up */
-
 html {
 	background-color: #FFF;
 }
