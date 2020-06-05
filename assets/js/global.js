@@ -1,11 +1,13 @@
 "use strict";
 
 /* Global vars */
+
 var touchScreen = false;
 var rotateTimer;
 var resizeTimerGlobal;
 
 /* On DOM load */
+
 document.addEventListener('DOMContentLoaded', () => {
     // Detect mobile
     if (navigator.userAgent.match(/iPhone|iPad|iPod/i) || navigator.userAgent.match(/Android/i)) {
@@ -34,6 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 /* Responsive */
+
 function responsiveGlobal() {
     if (window.innerWidth < 768) { // Mobile
 
@@ -48,11 +51,13 @@ function responsiveGlobal() {
 }
 
 /* Mouse and keyboard events */
+
 function setEventsGlobal() {
 
 }
 
 /* Start */
+
 function start() {
 
 }
