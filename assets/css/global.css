@@ -50,7 +50,7 @@ a {
 	color: #000;
 	text-decoration: none;
     transition: color .25s linear;
-    overflow-wrap: break-word;
+    -webkit-tap-highlight-color: transparent;
 }
 
 a:hover {
