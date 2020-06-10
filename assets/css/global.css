@@ -53,8 +53,10 @@ a {
     -webkit-tap-highlight-color: transparent;
 }
 
-a:hover {
-    color: #999;
+@media screen and (min-width: 1024px) { /* DT only */
+    a:hover {
+        color: #999;
+    }
 }
 
 .clear {
