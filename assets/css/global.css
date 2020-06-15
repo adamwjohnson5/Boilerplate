@@ -59,13 +59,7 @@ a {
     }
 }
 
-.clear {
-	clear: both;
-}
-
-.hidden {
-	display: none;
-}
+/* Forms */
 
 input:not([type=button]):not([type=checkbox]):not([type=radio]):not([type=submit]),
 textarea {
@@ -124,3 +118,11 @@ select {
 }
 
 /* Global */
+
+.clear {
+	clear: both;
+}
+
+.hidden {
+	display: none;
+}
