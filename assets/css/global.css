@@ -117,6 +117,25 @@ select {
    color: #F00 !important;
 }
 
+/* Animation */
+
+.fade-in-1 {
+    animation: fadeIn linear 1s;
+}
+
+.fade-in-05 {
+    animation: fadeIn linear .5s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 /* Global */
 
 .clear {
