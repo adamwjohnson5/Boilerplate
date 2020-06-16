@@ -3,16 +3,17 @@
 /* Global vars */
 
 var touchScreen = false;
-var rotateTimer;
+//var rotateTimer;
 var resizeTimerGlobal;
 
 /* On DOM load */
 
 document.addEventListener('DOMContentLoaded', () => {
     // Detect mobile
-    if (navigator.userAgent.match(/iPhone|iPad|iPod/i) || navigator.userAgent.match(/Android/i)) {
+    window.addEventListener('touchstart', function() {
+        document.querySelector('body').classList.remove('no-touch');
         window.touchScreen = true;
-    }
+    });
     
     // Mouse and keyboard
     setEventsGlobal();
@@ -31,12 +32,12 @@ document.addEventListener('DOMContentLoaded', () => {
     responsiveGlobal();
     
     // Orientation change
-    window.addEventListener('orientationchange', () => {
+    /* window.addEventListener('orientationchange', () => {
         clearTimeout(window.rotateTimer);
         window.rotateTimer = setTimeout(() => {
             location.reload(); // Refresh page
         }, 250);
-    });
+    }); */
     
     // Start app
     setTimeout(() => {
@@ -49,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
 function responsiveGlobal() {
     if (window.innerWidth < 768) { // Mobile
 
-    } else { // DT
+    } else { // DT/Tablet
 
     }
     

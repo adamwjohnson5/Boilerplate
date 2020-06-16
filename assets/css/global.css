@@ -49,14 +49,15 @@ p {
 a {
 	color: #000;
 	text-decoration: none;
-    transition: color .25s linear;
     -webkit-tap-highlight-color: transparent;
 }
 
-@media screen and (min-width: 1024px) { /* DT only */
-    a:hover {
-        color: #999;
-    }
+.no-touch a {
+    transition: color .25s linear;
+}
+
+.no-touch a:hover, a:active {
+    color: #999;
 }
 
 /* Forms */
