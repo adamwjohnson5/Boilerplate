@@ -49,9 +49,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function responsiveGlobal() {
     if (window.innerWidth < 768) { // Mobile
-
+        document.querySelector('body').classList.add('mobile');
     } else { // DT/Tablet
-
+        document.querySelector('body').classList.remove('mobile');
     }
     
     // On resize finish
