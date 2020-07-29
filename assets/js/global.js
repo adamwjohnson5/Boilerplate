@@ -29,6 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
             responsiveGlobal();
         }
     });
+    
     responsiveGlobal();
     
     // Orientation change
@@ -56,6 +57,7 @@ function responsiveGlobal() {
     
     // On resize finish
     clearTimeout(window.resizeTimerGlobal);
+    
     window.resizeTimerGlobal = setTimeout(() => {
 
     }, 250);
