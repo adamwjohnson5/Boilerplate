@@ -77,10 +77,7 @@ textarea {
 
 input[type=checkbox],
 input[type=radio] {
-    margin: 0;
-    margin-right: 6px;
     outline: none;
-    vertical-align: text-top;
 }
 
 select {
