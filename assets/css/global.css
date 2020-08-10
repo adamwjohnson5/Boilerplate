@@ -94,10 +94,7 @@ select {
     color: #999;
 }
 
-.field-error {
-    color: #F00 !important;
-}
-
+.field-error,
 .field-error::-webkit-input-placeholder {
    color: #F00 !important;
 }
