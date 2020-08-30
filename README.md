@@ -1,3 +1,3 @@
 # Boilerplate
 
-A web app boilerplate for modern browsers.
+A simple web app boilerplate for modern browsers.
