@@ -3,8 +3,6 @@
 /* Global vars */
 
 var touchScreen = false;
-//var rotateTimer;
-var resizeTimerGlobal;
 
 /* On DOM load */
 
@@ -32,18 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     responsiveGlobal();
     
-    // Orientation change
-    /* window.addEventListener('orientationchange', () => {
-        clearTimeout(window.rotateTimer);
-        window.rotateTimer = setTimeout(() => {
-            location.reload(); // Refresh page
-        }, 250);
-    }); */
-    
-    // Start app
-    setTimeout(() => {
-        start();
-    }, 500); // Short delay
+    start();
 });
 
 /* Responsive */
@@ -54,13 +41,6 @@ function responsiveGlobal() {
     } else { // DT/Tablet
         document.querySelector('body').classList.remove('mobile');
     }
-    
-    // On resize finish
-    clearTimeout(window.resizeTimerGlobal);
-    
-    window.resizeTimerGlobal = setTimeout(() => {
-
-    }, 250);
 }
 
 /* Mouse and keyboard events */

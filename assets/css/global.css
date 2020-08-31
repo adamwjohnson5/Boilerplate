@@ -18,8 +18,7 @@ body {
 	color: #000;
 	line-height: 0;
 	margin: 0;
-    /* -webkit-user-select: none;
-    user-select: none; */
+    /* user-select: none; */
 }
 
 h1,
@@ -90,12 +89,12 @@ select {
     color: #000;
 }
 
-::-webkit-input-placeholder {
+::placeholder {
     color: #999;
 }
 
 .field-error,
-.field-error::-webkit-input-placeholder {
+.field-error::placeholder {
    color: #F00 !important;
 }
 
@@ -106,7 +105,7 @@ select {
 }
 
 .fade-in-05 {
-    animation: fadeIn linear .5s;
+    animation: rotating linear 1s infinite;
 }
 
 @keyframes fadeIn {
@@ -115,6 +114,15 @@ select {
     }
     100% {
         opacity: 1;
+    }
+}
+
+@keyframes rotating {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
     }
 }
 
