@@ -99,10 +99,10 @@ select {
 /* Animation */
 
 .fade-in-1 {
-    animation: fadeIn linear 1s;
+    animation: fadeIn linear 1s forwards;
 }
 
-.fade-in-05 {
+.rotate-1 {
     animation: rotating linear 1s infinite;
 }
 
