@@ -30,7 +30,9 @@ document.addEventListener('DOMContentLoaded', () => {
     
     responsiveGlobal();
     
-    start();
+    setTimeout(() => {
+        start();
+    }, 100); // Short pause to make sure DOM ready
 });
 
 /* Responsive */
