@@ -8,7 +8,7 @@ var touchScreen = false;
 
 document.addEventListener('DOMContentLoaded', () => {
     // Detect mobile
-    window.addEventListener('touchstart', function() {
+    window.addEventListener('touchstart', () => {
         document.querySelector('body').classList.remove('no-touch');
         window.touchScreen = true;
     });
