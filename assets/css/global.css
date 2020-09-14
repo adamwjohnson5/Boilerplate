@@ -18,6 +18,8 @@ body {
 	color: #000;
 	line-height: 0;
 	margin: 0;
+    -webkit-tap-highlight-color: transparent;
+    text-size-adjust: none;
     /* user-select: none; */
 }
 
@@ -42,7 +44,6 @@ p {
 a {
 	color: #000;
 	text-decoration: none;
-    -webkit-tap-highlight-color: transparent;
 }
 
 .no-touch a {
