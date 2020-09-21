@@ -13,8 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
         window.touchScreen = !window.touchScreen; // Toggle
     });
 
-    // Mouse and keyboard
-    setEventsGlobal();
+    setEventsGlobal(); // Mouse and keyboard
 
     // Scroll
     window.addEventListener('scroll', () => {
