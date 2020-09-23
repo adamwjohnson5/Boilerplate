@@ -57,7 +57,7 @@ a:active {
 
 /* Forms */
 
-input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]),
+input:not([type="checkbox"]):not([type="radio"]),
 textarea {
     margin: 0;
     outline: none;
@@ -95,7 +95,7 @@ select {
 
 .field-error,
 .field-error::placeholder {
-    color: #f00 !important;
+    color: #F00 !important;
 }
 
 /* Animation */
@@ -132,8 +132,4 @@ select {
 
 .clear {
     clear: both;
-}
-
-.hidden {
-    display: none;
 }
