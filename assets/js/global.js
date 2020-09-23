@@ -26,6 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
             responsiveGlobal();
         }
     });
+
     responsiveGlobal();
 
     setTimeout(() => {
