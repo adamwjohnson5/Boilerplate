@@ -2,7 +2,7 @@
 
 /* Global vars */
 
-var touchScreen = false;
+window.touchScreen = false;
 
 /* On DOM load */
 
