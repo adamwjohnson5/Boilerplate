@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Detect mobile
     window.addEventListener('touchstart', () => {
         document.querySelector('body').classList.remove('no-touch');
-        window.touchScreen = !window.touchScreen; // Toggle
+        window.touchScreen = ! window.touchScreen; // Toggle
     });
 
     setEventsGlobal(); // Mouse and keyboard
@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Resize
     window.addEventListener('resize', () => {
-        if (!window.touchScreen) {
+        if (! window.touchScreen) {
             responsiveGlobal();
         }
     });
