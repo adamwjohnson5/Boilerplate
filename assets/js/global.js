@@ -25,9 +25,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     });
 
-    setTimeout(() => {
-        start();
-    }, 100); // Short pause to make sure DOM ready
+    document.querySelector('html').style.visibility = 'visible'; // Hack to avoid FOUC
+    start();
 });
 
 /* Mouse and keyboard events */

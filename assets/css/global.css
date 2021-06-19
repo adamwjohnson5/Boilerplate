@@ -9,6 +9,7 @@
 /* Set-up */
 
 html {
+    visibility: hidden; /* Hack to avoid FOUC */
     background-color: #FFF;
 }
 
